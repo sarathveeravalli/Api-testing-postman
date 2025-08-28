@@ -1,0 +1,36 @@
+{
+  "info": {
+    "name": "API Testing Collection",
+    "_postman_id": "1234-5678",
+    "description": "Collection for testing REST Countries API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Countries",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://restcountries.com/v3.1/all",
+          "protocol": "https",
+          "host": ["restcountries","com"],
+          "path": ["v3.1","all"]
+        }
+      }
+    },
+    {
+      "name": "Get Country by Name",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://restcountries.com/v3.1/name/india",
+          "protocol": "https",
+          "host": ["restcountries","com"],
+          "path": ["v3.1","name","india"]
+        }
+      }
+    }
+  ]
+}
